@@ -1,0 +1,9 @@
+---
+- name: DB Service
+  hosts: 192.168.56.117
+  roles:
+    - db
+- name: Web Service
+  hosts: 192.168.56.113
+  roles:
+    - web
